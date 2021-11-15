@@ -63,6 +63,8 @@ namespace VarDemo
             Console.WriteLine(value * 20);
 
             // Don't do the final extra challenge (2 points: ask the user if they would like to go again, and if so, repeat) -- but you can do the first 3 extra challenges
+            // Just name the project in a way that Antonio can understand; ask if you aren't sure what to do
+            // Up to us 
         }
     }
 }
