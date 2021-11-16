@@ -6,6 +6,8 @@ namespace VarDemo
     {
         static void Main(string[] args)
         {
+            // ---------------------------------------------------------------------- DAY 1 ----------------------------------------------------------------- //
+            
             // Console.WriteLine("Hello \" World!");
             // Console.WriteLine("This is a second line of text");
             
@@ -65,6 +67,16 @@ namespace VarDemo
             // Don't do the final extra challenge (2 points: ask the user if they would like to go again, and if so, repeat) -- but you can do the first 3 extra challenges
             // Just name the project in a way that Antonio can understand; ask if you aren't sure what to do
             // Up to us 
+
+
+
+
+            // ----------------------------------------------------------------------- DAY 2 ---------------------------------------------------------------------------------- //
+
+            // A solution is simply a place to store multiple projects
+            // Each project is a separate program that you can run
+            // Ex: Software for a whole accounting company might be the solution; however each department might have a specific program written for them within the solution
+            // Hierarchy of how it's saved on hard drive: SOLUTION >> FOLDER NAMED AFTER EACH PROJECT >> CODE FILES; this is called a tree
         }
     }
 }
