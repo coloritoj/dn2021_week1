@@ -12,13 +12,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomCalculator", "RoomCalculator\RoomCalculator.csproj", "{90A57C6B-DF99-4577-9D72-D086E09A0613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionDemo", "ExpressionDemo\ExpressionDemo.csproj", "{06FEC01E-B1C0-4D93-A595-1D8E1907D38A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionDemo", "ExpressionDemo\ExpressionDemo.csproj", "{06FEC01E-B1C0-4D93-A595-1D8E1907D38A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElseDemo", "IfElseDemo\IfElseDemo.csproj", "{5D9DC66C-A64A-411A-852C-FB96C0B32064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfElseDemo", "IfElseDemo\IfElseDemo.csproj", "{5D9DC66C-A64A-411A-852C-FB96C0B32064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopDemo", "LoopDemo\LoopDemo.csproj", "{8D8EA982-EE2F-49E8-AD25-D9A88599D12E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopDemo", "LoopDemo\LoopDemo.csproj", "{8D8EA982-EE2F-49E8-AD25-D9A88599D12E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberAnalyzer", "NumberAnalyzer\NumberAnalyzer.csproj", "{1E48A91A-A8AA-47EA-B593-25627A06FDF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberAnalyzer", "NumberAnalyzer\NumberAnalyzer.csproj", "{1E48A91A-A8AA-47EA-B593-25627A06FDF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopDemo2", "LoopDemo2\LoopDemo2.csproj", "{EBB6697C-935F-48B8-9708-6E71C0F5E2CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodDemo", "MethodDemo\MethodDemo.csproj", "{FE89EB0C-21D9-45B4-BCB3-116C86FFC310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumAnalyze2", "NumAnalyze2\NumAnalyze2.csproj", "{9A38012E-7B39-4C60-9C7C-10B2397B8F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentsPowersTable", "ExponentsPowersTable\ExponentsPowersTable.csproj", "{F0C83723-3EAF-431B-B9AA-FCC58130B960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +58,22 @@ Global
 		{1E48A91A-A8AA-47EA-B593-25627A06FDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E48A91A-A8AA-47EA-B593-25627A06FDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E48A91A-A8AA-47EA-B593-25627A06FDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB6697C-935F-48B8-9708-6E71C0F5E2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB6697C-935F-48B8-9708-6E71C0F5E2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB6697C-935F-48B8-9708-6E71C0F5E2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB6697C-935F-48B8-9708-6E71C0F5E2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE89EB0C-21D9-45B4-BCB3-116C86FFC310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE89EB0C-21D9-45B4-BCB3-116C86FFC310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE89EB0C-21D9-45B4-BCB3-116C86FFC310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE89EB0C-21D9-45B4-BCB3-116C86FFC310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A38012E-7B39-4C60-9C7C-10B2397B8F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A38012E-7B39-4C60-9C7C-10B2397B8F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A38012E-7B39-4C60-9C7C-10B2397B8F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A38012E-7B39-4C60-9C7C-10B2397B8F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C83723-3EAF-431B-B9AA-FCC58130B960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C83723-3EAF-431B-B9AA-FCC58130B960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C83723-3EAF-431B-B9AA-FCC58130B960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C83723-3EAF-431B-B9AA-FCC58130B960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

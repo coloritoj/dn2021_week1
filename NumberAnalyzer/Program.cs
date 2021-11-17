@@ -48,9 +48,7 @@ namespace NumberAnalyzer
                 }
             } while (temporaryInteger < 1 || temporaryInteger > 100);
 
-
             int userInteger = temporaryInteger;
-
 
             if (userInteger % 2 != 0)
             {
