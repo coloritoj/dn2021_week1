@@ -15,19 +15,11 @@ namespace PigLatinJoshColorito
     // 1 POINT: Allow punctuation in the input string.
     // 1 POINT: Translates words with contractions (ex: can't --> ant'cay)
     // 1 POINT: Don't translate words that have numbers or symbols (ex: 189 should be left as 189 and hello@grandcircus.co should be left as hello@grandcircus.co)
-    // 1 POINT: Check that the user has actually entered text before translating.
-    // 1 POINT: Make the application take aline instead of a single word, and then find the Pig Latin for each word in the line.
+    // 1 POINT: Check that the user has actually entered text before translating. --- COMPLETE
+    // 1 POINT: Make the application take a line instead of a single word, and then find the Pig Latin for each word in the line.
     
     // HINTS
     // Treat "y" as a consonant
-
-
-
-
-
-    ////////////////////////////////////////////// I THINK I SHOULD SAVE THIS AS THE "BASE" FILE AND THEN CREATE ANOTHER VERSION OF THIS FOR THE EXTENDED ASSIGNMENTS ///////////////////////
-
-
 
 {
     class Program
@@ -42,19 +34,6 @@ namespace PigLatinJoshColorito
         {
 
             if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
-        static bool ContainsApostrophe(string word)
-        {
-            bool hasApostrophe = word.Contains("'");
-            if (hasApostrophe)
             {
                 return true;
             }
@@ -101,11 +80,10 @@ namespace PigLatinJoshColorito
 
             while (lengthOfWordEntered < 1)
             {
-                Console.Write("You did not enter a word. Please enter your word here: ");
+                Console.Write("You did not enter a word. Please enter it here: ");
                 wordEntered = Console.ReadLine().ToLower();
                 lengthOfWordEntered = wordEntered.Length;
             }
-
 
             string pigLatinWord = PigLatin(wordEntered);
             Console.WriteLine("Your word translated into Pig Latin is: " + pigLatinWord);
